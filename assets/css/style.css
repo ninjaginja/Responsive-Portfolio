@@ -289,20 +289,19 @@ footer {
 
   .container {
     width: 100%;
-    margin-bottom: 10%;
+    margin: 0 auto;
   }
 
   .main {
-    width: 50%;
+    width: 60%;
     margin-bottom: 5%;
     padding-top: 0;
-    float: none;
+    float: left;
   }
 
-
   .sidebar {
-    width: 50%;
-    float: none;
+    width: 60%;
+    float: left;
   	margin-left: 0;
   }
 
@@ -315,27 +314,51 @@ footer {
   }
 
   .thumbnail-container {
-    float: none;
+    float: left;
+  }
+
+  footer {
+    position: static;
   }
 
 }
 
 @media screen and (max-width: 640px) {
 
+  .header-container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    position: relative;
+  }
+
+  h1 {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .container {
-    width: 70%;
-    height: 100%;
-    margin-bottom: 30%;
+    margin: 0 auto;
   }
 
   .main {
-    width: 100%;
+    width: 45%;
     height: 100%;
     float: none;
   }
 
   .sidebar {
-    width: 50%;
+    width: 45%;
     float: none;
     margin-left: 0;
     padding-bottom: 3%;
@@ -343,6 +366,8 @@ footer {
 
   .thumbnail-container {
     float: none;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .form-fields {
@@ -351,6 +376,10 @@ footer {
 
   textarea {
     width: 100%;
+  }
+
+  footer {
+    position: static;
   }
 
 }
