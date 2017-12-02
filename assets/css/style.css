@@ -337,6 +337,11 @@ footer {
   nav {
     width: 100%;
     position: relative;
+
+  }
+
+  .navLinks {
+  margin-left: 55px;
   }
 
   h1 {
